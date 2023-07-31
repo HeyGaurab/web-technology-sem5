@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Form</title>
+</head>
+<body>
+
+    <form>
+        <fieldset>
+            <legend> Exam Form</legend>
+
+    First Name: <input type="text" name="fname"  placeholder="Sanjeev" required> <br> <br> 
+    Last Name: <input type="text" name="lname"  placeholder="Acharya" required> <br> <br> 
+    Gender: <input type="radio" name="gender" value="Male">Male <input type="radio" name="gender" value="Female">Female <br> <br> 
+    Contact: <input type="tel" name="phnumber" required placeholder="+97798000000"><br> <br>    
+    States: <select name="states" required> 
+        <option value="">Select Your State</option>
+    <option value="koshi">Koshi</option>
+    <option value="bagmati">Bagmati</option>
+    <option value="gandaki">Gandaki</option>
+    <option value="madhesh">Madhesh</option>
+    <option value="karnali">Karnali</option>
+    <option value="lumbini">Lumbini</option>
+    <option value="sudurpashim">SudurPashim</option>
+</select> <br> <br>
+Date of Birth <input type="date" name="dob"><br> <br> 
+Select Subjects:<input type="checkbox" name="web" value="web"> Web Technology
+<input type="checkbox" name="sad" value="sad"> SAD
+<input type="checkbox" name="daa" value="daa"> DAA
+<input type="checkbox" name="cry" value="cry"> Cryptography
+<input type="checkbox" name="sam" value="sam"> SAM
+<br> <br>
+Upload P. Size Photo: <input type="file" accept="image/*" required> <br> <br>
+
+    Email: <input type="email" name="email" placeholder="sanjeev@nepsavvy.com" required> <br> <br> 
+    <!-- Additional Notes: <input type="" name="comments"><br><br> -->
+    <input type="submit" value="Register" name="submit">
+    <input type="reset" value="Reset" name="reset">
+
+</fieldset>
+    </form>
+    
+</body>
+</html>
